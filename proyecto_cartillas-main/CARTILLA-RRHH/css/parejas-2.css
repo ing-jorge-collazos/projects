@@ -1,0 +1,211 @@
+@font-face{
+    font-family: Alegreya Sans;
+    src: url(../fonts/AlegreyaSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: Alegreya Sans Bold;
+    src: url(../fonts/AlegreyaSans-Bold.ttf);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.points{
+    font-family: Alegreya Sans;
+}
+
+.borde {
+    padding: 3px 10px;
+    border: #308BDF 5px solid;
+    border-radius: 20px;
+}
+
+.deckA {
+    width: 800px;
+    min-height: 550px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 3em;
+}
+
+.deckA .card {
+    
+    height: 120px;
+    width: 129px;
+    font-size: 0;
+    background-image: url(../img/imgrrhh.png);
+    background-repeat: no-repeat;
+    background-size: contain;   
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+.deckA .card.open {
+    transform: rotateY(0);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+
+.deckA .card.match {
+    cursor: default;
+}
+
+
+.deckA .card.open.que1{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/q1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.que2{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/q2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.que3{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/q3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.que4{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/q4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.que5{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/q5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.que6{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/q6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.que7{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/q7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.que8{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/q8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.que9{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/q9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.que10{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/q10.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+
+.deckA .card.open.resp1{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/r1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.resp2{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/r2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.resp3{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/r3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.resp4{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/r4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.resp5{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/r5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.resp6{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/r6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.resp7{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/r7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.resp8{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/r8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.resp9{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/r9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}
+.deckA .card.open.resp10{
+    transform: rotateY(0);
+    background-image: url(../img/rrhh/r10.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: default;
+}

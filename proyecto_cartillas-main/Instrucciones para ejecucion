@@ -1,0 +1,11 @@
+Con el objetivo de realizar pruebas de la ejecucion:
+Una vez descargadas las carpetas CATERING y RRHH
+Usar el editor de visual studio code - se puede descargar desde - https://code.visualstudio.com/
+Una vez en el visual studio code, habilitar el PHP SERVER por medio del menu de la izquierda EXTENSIONES(se adjuntan capturas)
+abrir la carpeta de cada cartilla por medio de FILE/OPEN FOLDER
+Ubicar el archivo index.php y pulsar el icono AZUL superior php(se adjuntan capturas)
+
+
+Nota: Esta forma de ejecucion es unicamente para que puedan realizar pruebas y validaciones, ya que la version que se entregara a los estudiantes, se ejecutara automaticamente desde el index
+
+

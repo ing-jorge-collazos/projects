@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,900;1,700&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital@1&display=swap');
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+select {
+    width: 100%;
+    height: 100%;
+    /*background-color: #ff5800;*/
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    font-size: 1.9vw;
+}
+
+header,
+main,
+footer {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+header {
+    color: #ff5800;
+    height: 15vh;
+}
+
+#header-top {
+    font-size: 14px;
+}
+
+.btn-footer,
+select,
+.btn-zoom,
+.btn-try {
+    cursor: pointer
+}
+
+#btn-zoomin,
+#btn-zoomout {
+    width: 40px;
+    height: 40px;
+}
+
+.btn-screenshoot {
+    position: absolute;
+    left: 0;
+    top: 5%;
+    width: 4%;
+    cursor: pointer;
+}
+
+.btn-try {
+    display: none;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 72.5vh;
+    object-fit: cover;
+    overflow-y: auto;
+}
+
+.btn-footer {
+    width: 65px;
+}
+
+#btn-before,
+#btn-statics,
+#btn-screen {
+    display: none;
+}
+
+#content-main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*padding-top: 56.25%;*/
+    /* 16:9 Aspect Ratio */
+}
+
+#iframe {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    border: none;
+    display: none;
+}
+
+audio {
+    display: none;
+    color: #932 !important;
+}
+
+footer {
+    height: 11vh;
+}
+
+textarea {
+    resize: none;
+}
+
+@media (max-width: 768px) {
+    #img-header {
+        height: 30px;
+    }
+    header {
+        height: 15vh;
+    }
+    main {
+        height: 74vh;
+    }
+    footer {
+        height: 10vh;
+    }
+    #btn-zoomin,
+    #btn-zoomout {
+        width: 20%;
+        height: 20%;
+    }
+    #img-logo-footer {
+        width: 50%;
+    }
+    .btn-footer {
+        width: 30px;
+    }
+}
+
+textarea {
+    resize: none;
+}
+
+.btn-save {
+    height: 60px;
+    width: 140px;
+    cursor: pointer;
+}
+
+.tooltip [class$="inner"] {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.content-zoom {
+    object-fit: cover;
+    overflow-y: auto;
+    height: 83vh;
+}
+
+.zoom-text {
+    padding-right: 2%;
+}
+
+#ColorU2 {
+    color: #92ce3f;
+}
+
+#ColorU3 {
+    color: #8e52b7;
+    /* text-align: center; */
+}
+
+#ColorU4 {
+    color: #009e9e;
+    /* text-align: center; */
+    margin-top: 0%;
+}
+
+#ColorU5 {
+    color: #308bdf;
+    /* text-align: center; */
+    margin-top: 0%;
+}
+
+#ColorU6 {
+    color: #f8a921;
+}
+
+.img-fluid-2 {
+    max-width: 80%;
+    height: auto;
+    align-items: center;
+}
+
+
+/*****
+*** Estilos
+***/
+
+p {
+    font-size: 24px;
+    color: black;
+    text-align: left;
+    padding: 25px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+ol,
+ul {
+    padding: 5%;
+    font-size: 24px;
+    color: black;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+.h2-1 {
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+
+h3 {
+    font-size: 36px;
+    text-align: left;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 5%;
+    padding: 7px;
+    color: #ff5800;
+}
+
+#titulocwv {
+    font-size: 36px;
+    text-align: left;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 5%;
+    padding: 7px;
+    color: #308BDF;
+}
+
+h4 {
+    font-size: 62px;
+    text-align: left;
+    font-weight: 900;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #ff5800;
+    padding: 7px;
+    margin-top: 5%;
+}
+
+.img-fluid-1 {
+    max-width: 70%;
+    height: auto;
+    align-items: center;
+}
+
+.img-fluid-units {
+    max-width: 50%;
+    height: auto;
+}
+
+.img-fluid-inicio {
+    max-width: 70%;
+    height: auto;
+}
+
+.img-fluid-head {
+    max-width: 20%;
+    height: auto;
+}
+
+.img-fluid-unit4 {
+    max-width: 70%;
+}
+
+
+
+/**
+* Test 
+**/
+
+#cuestionario1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #3b3a3a;
+}
+
+.content-test {
+    margin-bottom: 2%;
+}
+
+.table-test {
+    width: 90%;
+}
+
+
+/* Botón true - false*/
+
+.btn-t3 {
+    cursor: pointer;
+    width: 7px;
+    height: 7px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-size: 11px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn-t3:hover {
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter: alpha (opacity=50);
+}
+
+.btn-m3 {
+    cursor: pointer;
+    width: 7px;
+    height: 7px;
+    background-color: lightslategrey;
+    padding: 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+
+/*Login*/
+
+.cuesti10{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.form-group .cuesti10{
+    margin-bottom: 0rem;
+}
+
+.padre{
+    margin-top: 10%;
+}
+
+.pag5 span{
+    font-size: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.pag5 p{
+    font-size: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+}
+
+.pag6 p{
+    font-size: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    justify-content: center;
+}
+
+.content-zoom-1 {
+    object-fit: cover;
+    overflow-y: auto;
+    height: 95vh;
+    overflow-x:hidden;
+}
+
+.pag12 li{
+    font-size: 19px;
+}
+button{
+    background-color: none;
+}
+/*Login*/
+.central {
+    text-align: center;
+    justify-content:space-between;
+}
+
+.pag8 p{
+    font-size: 30px;
+}
+
+.tabla-1{
+    border-collapse:collapse;
+    border: none;
+}
+.tabla-1 td{
+    padding: 0;
+}
+.tabla-1 tr{
+    padding: 0;
+}

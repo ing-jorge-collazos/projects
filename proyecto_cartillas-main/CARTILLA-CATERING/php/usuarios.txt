@@ -1,0 +1,11 @@
+luis|rosero|lrosero|123|
+jorge|collazos|jcollazos|123|
+pedro|suarez|psuarez|123|
+diana|ruiz|druiz|123|july|ruiz|jruiz|123|
+july|ruiz|jruiz|123|
+luisa|dulce|ldulce|123|
+camilo|torres|rctorresn|1234|
+dani|ortega|danio|1234|
+ram|torres|ramses|1234|
+cam|lol|ram|123|
+jorge|collazos|jorgec|123|

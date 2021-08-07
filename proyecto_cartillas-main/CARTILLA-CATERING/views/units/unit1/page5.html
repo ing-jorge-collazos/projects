@@ -1,0 +1,143 @@
+<div class="container">
+    <div class="row">
+        <div id="col1">
+            <H3>4. Listen and complete the blanks with words from the box below.</H3>
+            <div><audio src="../../../content\units\unit1\sounds\pagina 8 AUDIO 1.mp3" preload="auto" controls></audio></div>
+            <div class="row">
+                <div class="col-10 text-center">
+                    <img class="img-fluid" id="img-try-2" src=""><br>
+                </div>
+                
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <input type="image" onclick="playAudioEng()" name="English" src="../../../content/theme/botones/audio_but_reposo-2.png" alt="English" onclick="this.src='../../../content/theme/botones/audio_but_press-1.png';" onmouseout="this.src='../../../content/theme/botones/audio_but_reposo-2.png';"
+                                onclick="ocultar();">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-10 text-center">
+                    <img class="btn-save img-fluid" data-id="2" src="../../../content/theme/botones/review_but_reposo.png">
+                </div>
+                <div class="col-md-10 ">
+                    <audio id="audioEng" src="../../../content/units/unit1/sounds/pagina 8 AUDIO 1.mp3"></audio>
+                    <audio id="audioSpa" src="../../../content/units/unit1/sounds/pagina 8 AUDIO 1.mp3"></audio>
+                </div>
+            </div>
+        </div>
+        <div id="col2">
+            <div>
+                <!--<input type="text" id="question1" />-->
+                <div class="input-group col-sm-12 content-test">
+                    <span>1. It's expensive to </span>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control form-control-sm" id="question1">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="chqu1"><img class="img-fluid" /></span>
+                            </div>
+                        </div>
+                        <span class="error-answer" id="correct_answer1"></span>
+                    </div>
+                    <span>at some restaurants because they have well-known chefs.</span>
+                </div>
+            </div>
+            <div>
+                <div class="input-group col-sm-12 content-test">
+                    <span>2. The graduation</span>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control form-control-sm" id="question2" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="chqu2"><img class="img-fluid" /></span>
+                            </div>
+                        </div>
+                        <span class="error-answer" id="correct_answer2"></span>
+                    </div>
+                    <span>was held in a luxurious hotel.</span>
+                </div>
+            </div>
+            <div>
+                <div class="input-group col-sm-12 content-test">
+                    <span>3. We're meeting in the </span>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control form-control-sm" id="question3" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="chqu3"><img class="img-fluid" /></span>
+                            </div>
+                        </div>
+                        <span class="error-answer" id="correct_answer3"></span>
+                    </div>
+                    <span>tonight to have some drinks.</span>
+                </div>
+            </div>
+            <div>
+                <div class="input-group col-sm-12 content-test">
+                    <span>4. I enjoy having a nice conversation in a </span>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control form-control-sm" id="question4" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="chqu4"><img class="img-fluid" /></span>
+                            </div>
+                        </div>
+                        <span class="error-answer" id="correct_answer4"></span>
+                    </div>
+                    <span>with a cup of coffee.</span>
+                </div>
+            </div>
+            <div>
+                <div class="input-group col-sm-12 content-test">
+                    <span>5. In the VIP cabin we will shortly start serving hot and cold snacks and </span>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control form-control-sm" id="question5" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="chqu5"><img class="img-fluid" /></span>
+                            </div>
+                        </div>
+                        <span class="error-answer" id="correct_answer5"></span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="input-group col-sm-12 content-test">
+                    <span>6. I am really tired to cook , let's get a </span>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control form-control-sm" id="question6" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="chqu6"><img class="img-fluid" /></span>
+                            </div>
+                        </div>
+                        <span class="error-answer" id="correct_answer6"></span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="input-group col-sm-12 content-test">
+                    <span>7. Some companies offer their workers to have </span>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control form-control-sm" id="question7" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="chqu7"><img class="img-fluid" /></span>
+                            </div>
+                        </div>
+                        <span class="error-answer" id="correct_answer7"></span>
+                    </div>
+                    <span>meals.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../../../js/lib/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../../../js/lib/popper.min.js"></script>
+<script type="text/javascript" src="../../../js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../../js/lib/sweetalert2.min.js"></script>
+<script type="text/javascript" src="../../../js/lib/html2canvas.min.js"></script>
+<script type="text/javascript" src="../../../js/audios.js"></script>
+<script type="text/javascript" src="../../../js/iframe.js"></script>

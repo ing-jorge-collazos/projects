@@ -1,0 +1,175 @@
+<div class="container">
+    <div class="row">
+        <div id="col1">
+            <div class="container">
+                <div class="container">
+                    <div class="borde">
+                        <div id="score" class="points">0/15 </div>
+                        <div>HITS</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="score">DEFINITIONS</div>
+                    <ul class="deckA" onclick="appearCard()">
+                        <li class="card">
+                            <i class="q1"> A wine that has a taste or smell of wood, is described as</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q2">A wine that feels heavy in the mouth, is called</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q3">A wine that has a taste or smell of cigars, has a taste/smell of</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q4">The aroma or smell of wine, is normally called the</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q5">A wine that has a taste or smell of burning wood, is described as</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q6">A wine that has a taste or smell of pepper, cinnamon etc..., is described as</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q7">An element in a wine that can make it taste bitter, is</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q8">Another way to say there is a slight/little taste or smell of something, is</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q9">A wine that has been contaminated and isn't pleasant to drink, is</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q10">The taste of wine remaining in the mouth after you have swallowed it, is called the</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q11">Another way to say that a wine has a sour taste, is</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q12">The process of allowing the wine to mix with air, is called</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q13">When neither the alcohol or one of the flavors dominate a wine, it is</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q14">When one flavour is stronger than the other flavours, it</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q15">A wine that has a lot of different flavours, has</i>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="score words">WORDS</div>
+                    <ul class="deckB" onclick="appearCard()" ">
+                        <li class="card ">
+
+                            <i class="q1 ">Oaky</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q2 ">Full-bodied</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q3 ">Tobacco</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q4 ">Nose</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q5 ">Smoky</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q6 ">Spicy</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q7 ">Tannin</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q8 ">Hint</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q9 ">corked</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q10 ">Finish</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q11 ">Crisp</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q12 ">Breathe</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q13 ">Well-balanced</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q14 ">Dominates</i>
+                        </li>
+                        <li class="card ">
+
+                            <i class="q15 ">Depth</i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--<script src="../../../js/parejas.js "></script>-->
+        <div class="modal fade " id="wingame " tabindex="-1 " role="dialog " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+            <div class="modal-dialog " role="document ">
+                <div class="modal-content ">
+                    <div class="modal-header ">
+                        <h5 class="modal-title " id="exampleModalLabel ">
+                            Congrats!!!
+                        </h5>
+                        <button type="button " class="close " data-dismiss="modal " aria-label="Close ">
+                            <span aria-hidden="true ">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body ">
+                        You win, the game will restart
+                    </div>
+                    <div class="modal-footer ">
+                        <button type="button " class="btn btn-primary " data-dismiss="modal ">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script type="text/javascript " src="../../../js/lib/jquery-3.6.0.min.js "></script>
+<script type="text/javascript " src="../../../js/lib/popper.min.js "></script>
+<script type="text/javascript " src="../../../js/lib/bootstrap.min.js "></script>
+<script type="text/javascript " src="../../../js/lib/sweetalert2.min.js "></script>
+<script type="text/javascript " src="../../../js/lib/html2canvas.min.js "></script>
+<script type="text/javascript " src="../../../js/audios.js "></script>
+<script type="text/javascript " src="../../../js/parejas.js "></script>
+<script type="text/javascript " src="../../../js/iframe.js "></script>

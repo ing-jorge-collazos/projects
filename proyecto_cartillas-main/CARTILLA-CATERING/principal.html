@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CATERING AND COOKING</title>
+
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/lib/sweetalert2.min.css" />
+    <link rel="stylesheet" href="css/lib/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/parejas.css" />
+    <link rel="stylesheet" href="css/CW1.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <!--Contenedor principal-->
+            <div class="row" id="header-top">
+                <!--Fila header_UP-->
+                <div class="col-md-4 col-sm-4 text-center">
+                    CATERING AND COOKING
+                </div>
+                <div class="col-md-4 col-sm-4 text-center">
+                    UNIT <span id="select-unit">0</span>
+                </div>
+                <div class="col-md-4 col-sm-4 text-right">
+                    <div class="row">
+                        <div class="col-md-9">
+                            PAGE <span id="current-page">0</span> TO <span id="limit-page">0</span>
+                        </div>
+                        <div class="col-md-3 text-right">
+                            <button class="btn btn-sm btn-outline-danger py-0" id="btn-logout" style="margin-bottom: 1%;">Log out</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="header-main">
+                <!--Fila header_MENU-->
+                <div class="col-sm-10 nopadding">
+                    <img class="img-fluid" id="img-header">
+                </div>
+                <div class="col-sm-2 nopadding">
+                    <select name="units" id="units">
+                        <option value="1">UNIT 1</option>
+                        <option value="2">UNIT 2</option>
+                        <option value="3">UNIT 3</option>
+                        <option value="4">UNIT 4</option>
+                        <option value="5">UNIT 5</option>
+                        <option value="6">UNIT 6</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <div class="container-fluid" id="content-main" style="overflow: none;">
+            <iframe id="iframe" frameborder="0" allowfullscreen>   
+               
+            </iframe>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row text-center">
+                <!--Fila Pie de pagina-->
+                <div class="col-md-4 col-sm-12 text-left" style="background-color:#e5e5e5;">
+                    <img class="img-fluid" src="content/theme/logos/logos.png">
+                </div>
+                <div class="col-md-3 col-sm-12 text-left" style="background-color:#e5e5e5;">
+                    <!--<div class="row text-center">
+                        <img class="img-fluid" id="lbl-text" src="content/theme/botones/text_but.png">
+                        <img class="btn-zoom plus img-fluid" id="btn-zoomin" src="content/theme/botones/mas_but.png">
+                        <img class="btn-zoom img-fluid" id="btn-zoomout" src="content/theme/botones/menos_but.png">
+                    </div>-->
+                </div>
+                <div class="col-md-5 col-sm-12" style="background-color:#e5e5e5;">
+                    <div class="row ">
+                        <div class="offset-md-6 col-md-6">
+                            <div class="row">
+                                <!--Fila botones-->
+                                <a href="catering.html"><div class="btn-footer" data-toggle="tooltip" data-placement="top" title="<img class='img-fluid' src='content/theme/tooltips/home.png'>" id="btn-home"><img class="img-fluid" src="content/theme/botones/home_but.png"></div></a>
+                                <div class="btn-footer" data-toggle="tooltip" data-placement="top" title="<img class='img-fluid' src='content/theme/tooltips/statistics.png'>" id="btn-statics"><img class="img-fluid" src="content/theme/botones/score_but.png"></div>
+                                <!--<div class="btn-footer" data-toggle="tooltip" data-placement="top" title="<img class='img-fluid' src='content/theme/tooltips/screenshot.png'>" id="btn-screen"><img class="img-fluid" src="content/theme/botones/screen_but.png"></div>-->
+                                <div class="btn-footer" data-toggle="tooltip" data-placement="top" title="<img class='img-fluid' src='content/theme/tooltips/preview.png'>" id="btn-before"><img class="img-fluid" src="content/theme/botones/before_but.png"></div>
+                                <div class="btn-footer" data-toggle="tooltip" data-placement="top" title="<img class='img-fluid' src='content/theme/tooltips/next.png'>" id="btn-next"><img class="img-fluid" src="content/theme/botones/next_but.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/lib/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/lib/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="js/lib/popper.min.js"></script>
+    <script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lib/html2canvas.min.js"></script>
+    <script type="text/javascript" src="js/lib/sweetalert2.min.js"></script>
+    <script type="text/javascript" src="js/CW1.js"></script>
+    <script type="text/javascript" src="js/audios.js"></script>
+    <script type="text/javascript" src="content/files/data.json"></script>
+    <script type="text/javascript" src="js/load-page.js"></script>
+
+</body>
+
+</html>

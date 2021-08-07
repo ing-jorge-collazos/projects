@@ -1,0 +1,99 @@
+<div class="container">
+    <div class="row">
+
+
+
+        <img src onerror="initializeScreen()">
+        <div id="col1">
+
+            <div class="container">
+                <div id="leftBox" class="puzzle">
+                    <table id="puzzel"></table>
+                </div>
+                <div>
+                    <input class="butt btn btn-info" type="submit" value="Clear All" onclick="clearAllClicked()" />
+                    <br>
+                    <input class="butt btn btn-info" type="submit" value="Check" onclick="checkClicked()" data-toggle="modal" id="checkClick" />
+                    <br>
+
+                    <input class="butt btn btn-info" type="submit" value="Solve" onclick="solveClicked()" />
+                    <br>
+
+                    <input class="butt btn btn-info" type="submit" value="Clue" onclick="clueClicked()" />
+                    <br>
+                </div>
+                <div>
+                    <h3 id="titulocwv">HORIZONTAL</h3>
+                    <p id="textgame">
+                        <strong class="sto">2. </strong> Chefs wear these to stand up all day. <br />
+                        <strong class="sto">4. </strong> What part has some objects which do not drop into food?
+                        <br />
+                        <strong class="sto">6. </strong> Women use skirts instead of them. <br />
+                        <strong class="sto">9. </strong> The roll-up sleeves protect the __________. <br />
+                        <strong class="sto">10. </strong> What part is like a scarf?
+                    </p>
+                    <h3 id="titulocwv">VERTICAL</h3>
+                    <p id="textgame">
+                        <strong class="sto">1. </strong> You use it to pick up hot objects. <br />
+                        <strong class="sto">3. </strong> It comes in different colors.<br />
+                        <strong class="sto">5. </strong> It is double-breasted. <br />
+                        <strong class="sto">7. </strong> What material is the object covering the hair. <br />
+                        <strong class="sto">8. </strong> This part of the shoes prevent from slipping.
+                    </p>
+                </div>
+
+            </div>
+            <div>
+                <h3 id="titulocwv">HORIZONTAL</h3>
+                <p id="textgame">
+                    <strong>2. </strong> Chefs wear these to stand up all day. <br />
+                    <strong>4. </strong> What part has some objects which do not drop into food?
+                    <br />
+                    <strong>6. </strong> Women use skirts instead of them. <br />
+                    <strong>9. </strong> The roll-up sleeves protect the __________. <br />
+                    <strong>10. </strong> What part is like a scarf?
+                </p>
+                <h3 id="titulocwv">VERTICAL</h3>
+                <p id="textgame">
+                    <strong>1. </strong> You use it to pick up hot objects. <br />
+                    <strong>3. </strong> It comes in different colors.<br />
+                    <strong>5. </strong> It is double-breasted. <br />
+                    <strong>7. </strong> What material is the object covering the hair. <br />
+                    <strong>8. </strong> This part of the shoes prevent from slipping.
+                </p>
+            </div>
+
+        </div>
+        <div class="modal fade" id="wingame" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                            Congrats!!!
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        You Win !
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../../../js/lib/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../../../js/lib/popper.min.js"></script>
+<script type="text/javascript" src="../../../js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../../js/lib/html2canvas.min.js"></script>
+<script type="text/javascript" src="../../../js/lib/sweetalert2.min.js"></script>
+<script type="text/javascript" src="../../../js/audios.js"></script>
+<script type="text/javascript" src="../../../js/iframe.js"></script>
+<script type="text/javascript" src="../../../js/CW1.js"></script>

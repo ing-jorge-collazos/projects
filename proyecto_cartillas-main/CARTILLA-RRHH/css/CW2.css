@@ -1,0 +1,120 @@
+@font-face{
+    font-family: Alegreya Sans;
+    src: url(../fonts/AlegreyaSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: Alegreya Sans Bold;
+    src: url(../fonts/AlegreyaSans-Bold.ttf);
+}
+
+.subit h3{
+	font-family: Alegreya Sans Bold;
+	font-size: 30px;
+    color: #92CE3F;
+	margin-bottom: 0;
+	margin-top: 0;
+	line-height: 0;
+}
+
+.subitp {
+	font-family: Alegreya Sans;
+    font-size: 15px;
+	margin-bottom: 0;
+	margin-top: 0;
+	line-height: 15px;
+}
+
+.strongsub{
+	color: #92CE3F;
+}
+
+.btn-success{
+	font-family: Alegreya Sans;
+	font-weight: bold;
+	color: white;	
+	border-color: #92CE3F;
+	background-color: #92CE3F;
+}
+
+.btn-success:hover{
+	border-color: #92CE3F;
+	background-color: white;
+	color: #92CE3F;
+}
+
+.btn-success:active{
+	border-color: #92CE3F;
+	background-color: white;
+	color: #92CE3F;
+}
+
+
+input::placeholder {
+	font-size: 1em;
+	color: white;	
+	background-color: black;
+	font-style: italic;
+}
+
+.puzzle{
+	height: 550px;
+	width: 400px;
+}
+
+
+#cross{
+	text-align: center;
+	width:30px;
+	height:30px;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border: 1px solid white;
+}
+#buttons{
+	width:30%;
+	float: right;
+}
+#puzzle1 tr{
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+#puzzle1 td{
+	height: 10px;
+	width: 10px;
+}
+
+#leftBox{
+	float: left;
+}
+#rightBox{
+	float: left;
+	clear:left;
+}
+.butt{
+	height:50px;
+	width: 107px;
+}
+#puzzle1{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+#puzzle .inputBox{
+		width: 25px;
+		height:25px;
+		border: 1px solid black;
+		text-align: center;
+}
+#hintsTable{
+	width: 480px;
+	float: left;
+	clear: left;
+}
+
+table{
+    border-spacing: 1px;
+}

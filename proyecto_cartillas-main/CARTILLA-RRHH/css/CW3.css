@@ -1,0 +1,125 @@
+@font-face{
+    font-family: Alegreya Sans;
+    src: url(../fonts/AlegreyaSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: Alegreya Sans Bold;
+    src: url(../fonts/AlegreyaSans-Bold.ttf);
+}
+
+.sangria h3{
+	font-family: Alegreya Sans Bold;
+	font-size: 30px;
+	font-weight: bold;
+    color: #73D3D6;
+	margin-bottom: 0;
+	margin-top: 0;
+	line-height: 0;
+}
+
+body{
+    overflow-x: auto;
+}
+h1{
+	font-family: Alegreya Sans;
+	font-size: 60px;
+	color: #73D3D6;
+	
+}
+
+.sangria p{
+	font-family: Alegreya Sans;
+    font-size: 12px;
+}
+
+.sangria strong{
+	color: #73D3D6;
+}
+
+.btn-info{
+	font-family: Alegreya Sans;
+	font-weight: bold;
+	color: white;	
+	border-color: #73D3D6;
+	background-color: #73D3D6;
+}
+
+.btn-info:hover{
+	border-color: #73D3D6;
+	background-color: white;
+	color: #73D3D6;
+}
+
+input::placeholder {
+	font-size: 13px;
+	color: white;	
+	background-color: black;
+	font-style: italic;
+}
+
+.puzzle{
+	height: 480px;
+	width: 800px;
+    overflow-x: auto;
+}
+
+#cross{
+	text-align: center;
+	width:30px;
+	height:30px;
+	margin: 0;
+
+	padding: 0;
+	border-collapse: collapse;
+	border: 1px solid white;
+}
+#buttons{
+	width:30%;
+	float: right;
+}
+tr{
+	margin: 0;
+	padding: 1;
+	border-collapse: collapse;
+}
+td{
+	height: 10px;
+	width: 10px;
+}
+table{
+    border-spacing: 1rem;
+    overflow-y: auto;
+}
+.inputBox{
+    width: 20px;
+    height:20px;
+    border: 1px solid black;
+    text-align: center;
+	font-size: 15px;
+}
+#centerBox{
+	float: none;
+}
+#leftBox{
+	float: left;
+}
+#rightBox{
+	float: left;
+	clear:left;
+}
+.butt{
+	height:50px;
+	width: 107px;
+}
+#puzzel{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	
+}
+
+
+
+

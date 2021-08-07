@@ -1,0 +1,8 @@
+.dataTables_filter input {
+    border-radius: 10px;
+}
+
+.header-title {
+    font-weight: bold;
+    text-align: center;
+}
